@@ -140,6 +140,10 @@
   gap: 20px;
 }
 
+.main__text-block:nth-child(3) .main__text-block_title {
+  height: max-content;
+}
+
 .main__text-block:last-child .main__text-block_paragraph {
   display: grid;
   gap: 10px;
