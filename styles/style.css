@@ -121,7 +121,7 @@
   width: 100%;
   height: min-content;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 23.4px;
   margin-block-start: 55px;
   background-color: var(--accent-color);
@@ -190,7 +190,7 @@
   position: relative;
   color: var(--paragraph-text-color);
   line-height: 23.4px;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 18px;
 }
 
