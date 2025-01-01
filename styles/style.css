@@ -26,7 +26,7 @@
 }
 
 .decorated-zone::after {
-  content: "";  
+  content: "";
   position: absolute;
   inline-size: 25px;
   block-size: 25px;
@@ -266,10 +266,12 @@
     gap: 20px;
   }
 
+  .block-modification_three-columns {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   .main__text-block_images {
     gap: 20px;
-    /* grid-template-columns: repeat(3, min(230px, 1fr));
-    grid-template-rows: repeat(3, min(230px, 1fr)); */
     grid-template-areas: 
       "mountains mountains ice-cream"
       "tape books ice-cream"
