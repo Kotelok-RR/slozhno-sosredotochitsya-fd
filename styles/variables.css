@@ -6,7 +6,6 @@
   --button-text-color: #ff0070;
   --button-hover-color: rgb(255, 0, 112, 0.4);
   --button-focus-color: #ff0070;
-  --active-theme-outline-color: #ff0070;
   --title-color: #DB00FF;
   --title-shadow-color: #FF0070;
   --accent-color: #FF0070;
@@ -18,4 +17,11 @@
   --link-shadow-color: #FF0070;
   --link-hover-underline-color: #F1B2CE;
   --link-focus-outline-color: #F1B2CE;
+  --logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem)
+}
+
+@media (width >= 768px) {
+  :root {
+    --logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem)
+  }
 }
