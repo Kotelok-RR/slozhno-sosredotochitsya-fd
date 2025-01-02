@@ -354,7 +354,7 @@
     grid-column: auto;
   }
 
-  .description-modification_no-gap {
+  .description_tight-layout {
     gap: 0;
   }
 
